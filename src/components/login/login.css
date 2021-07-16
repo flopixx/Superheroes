@@ -1,0 +1,65 @@
+.login-form-container {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  /* background: linear-gradient(0.25turn, #2c5b6e, #ccd6c3, #f6673c); */
+  /* border-top: 5px solid #ebf8e1;
+  border-bottom: 5px solid #ebf8e1; */
+  border: 2px solid #1d1d1d;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-welcome {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffedbc;
+  text-shadow: 3px 3px 3px black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form_input {
+  border-radius: 5px;
+}
+
+.login-form label {
+  margin-top: 2rem;
+  color: #ffedbc;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.error {
+  color: red;
+}
+
+.login-form button {
+  margin-top: 2rem;
+  background-color: #1d1d1d;
+  color: white;
+}
+
+/*********************************/
+/****IMAGE SM SCREEN*************/
+
+.login-sm-header {
+  background-image: url(../../images/login-image.jpg);
+  /* border-top: 5px solid #3f87a6;
+  border-bottom: 5px solid #3f87a6; */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.login-sm-title {
+  color: #ffedbc;
+  text-shadow: 3px 3px 3px black;
+  text-transform: uppercase;
+}

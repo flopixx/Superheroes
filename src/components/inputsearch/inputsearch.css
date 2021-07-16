@@ -1,0 +1,14 @@
+.form__formik {
+  display: flex;
+  justify-content: center;
+
+  height: 38px;
+}
+
+.form__input {
+  width: 744px;
+}
+
+.form__label {
+  display: none;
+}
