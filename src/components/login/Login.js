@@ -5,6 +5,7 @@ import * as Yup from "yup";
 import axios from "axios";
 import { Container, Row, Col } from "react-bootstrap";
 
+import { Link } from "react-router-dom";
 const MyTextInput = ({ label, ...props }) => {
   const [field, meta] = useField(props);
   return (
@@ -79,6 +80,16 @@ const SignupForm = () => {
                 <button className="btn login-form_button" type="submit">
                   Entrar!
                 </button>
+
+                <div className="linkdin">
+                  Desarrollado por
+                  <a
+                    href="https://www.linkedin.com/in/florencia-velazquez-0121951b7/2"
+                    target="_blank"
+                  >
+                    Florencia velazquez ❣️
+                  </a>
+                </div>
               </Form>
             </Formik>
           </div>

@@ -37,6 +37,7 @@
 }
 .error {
   color: red;
+  font-weight: bold;
 }
 
 .login-form button {
@@ -44,7 +45,20 @@
   background-color: #1d1d1d;
   color: white;
 }
-
+.linkdin {
+  color: #ffedbc;
+  text-decoration: none;
+  padding: 10px 0;
+}
+.linkdin a {
+  color: #ffedbc;
+  text-decoration: none;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.linkdin a:hover {
+  color: violet;
+}
 /*********************************/
 /****IMAGE SM SCREEN*************/
 
